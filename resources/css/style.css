@@ -1,0 +1,495 @@
+/* Universal Styles */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: 'Itim';
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/* Bootstrap Overrides */
+.navbar-default {
+  background-color: #457746;
+}
+
+.nav.navbar-nav li a{
+  color: white;
+}
+
+ .nav.navbar-nav li .main-header {
+  color: brown;
+}
+
+nav span{
+  width: auto;
+  height: 2rem;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #457746;
+}
+
+.btn-primary {
+  width: 160px;
+  padding: 1.3rem 0;
+  border: 0;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: .5s box-shadow;
+}
+
+.btn-primary:hover {
+  background-color: #399bd1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Slick Overrides */
+
+.slick-slide {
+  outline: none;
+}
+
+/* Navigation */
+
+.navbar {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+/*Home top image */
+.background-ind-Top {
+  background-image: url("../images/image6.jpeg");
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 30rem;
+  padding-top: 50px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.background-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.background-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.background-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+.background-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
+.jumbotron h1 {
+  font-family: "fjalla One", sans-serif;
+  color: #fabf01;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Help */
+
+.help {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+
+}
+
+.help img {
+  width: 14rem;
+  height:auto;
+  margin-top: -6rem;
+  margin-bottom: -2rem;
+}
+.help strong {
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.help .quicklink {
+color: grey;
+}
+
+.help p {
+  max-width: 42rem;
+  margin: auto;
+}
+
+.help h5 {
+  font-size: .7rem;
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: -4rem;
+}
+.facebook-icon{
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    background: #3B5998;
+    color: white;
+    margin-left: -.9rem;
+}
+
+
+
+/* Project Image Containers */
+
+.image-container {
+/*  overflow: hidden; */
+}
+
+.image-container .project img {
+  opacity: 0.7;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+
+.image-container .project img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* Featured Project */
+.mingo{
+  background-image: url("../images/MainBackOneBLackAndWhite.png");
+  background-repeat: repeat;
+ background-position: center;
+}
+
+.featured-project {
+  margin-top: -2rem; /* To account for relatively positioned button */
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+
+.featured-project .data {
+  margin-top: 6rem;
+}
+.featured-project  h2 {
+  text-align:center;
+  font-size: 2.5rem;
+}
+.featured-project h3 {
+  font-size: 1.7rem;
+  color: #fabf01;
+  margin-top: 3rem;
+}
+.featured-project .text p {
+    font-size: 2.6rem;
+    font-family: 'Itim';
+}
+
+.featured-project .textbox p{
+  spacing: 1.3rem;
+  font-size: 1.6rem;
+}
+.featured-project .image-container {
+  margin-top: 20px; /* To match bootstrap header margins */
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+.categories ul {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Projects */
+
+.project {
+  margin-bottom: 5.85rem;
+}
+
+.project {
+  height: 40rem;
+  width: 40rem;
+}
+
+/* styles for Get Involved */
+
+
+.button {
+    background-color: #399bd1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.button:hover {background-color: #1d5b7c}
+
+.button:active {
+  background-color: #1d5b7c;
+
+  transform: translateY(4px);
+}
+
+.background-team {
+  background-image: url("../images/GetInv-Top.jpg");
+}
+
+.background-team h1 {
+  margin-top: 12rem;
+}
+ .spacing {
+margin-top: 3rem;
+text-align: center;
+margin-bottom: 3rem;
+}
+ .spacing h2 {
+   font-size: 2rem;
+ }
+.spacing .image-container .inv {
+height: 30rem;
+width:auto;
+
+}
+
+.spacing .teamimage {
+height: 35rem;
+width: auto;
+}
+
+.spacing .charlie {
+  margin-bottom: 3rem;
+}
+
+.spacing h2 {
+text-align: center;
+}
+
+.spacing .row {
+  margin-top; 2rem;
+  margin-bottom: 2rem;
+}
+
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+
+.panel{
+    margin-bottom: 0px;
+}
+.top-bar {
+  background: #666;
+  color: white;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  padding-right:5px;
+}
+.box-position{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.containerfoo .info{
+  display: none;
+}
+
+/* About Us PAGE*/
+
+
+
+.background-aboutus {
+    background-image: url("../images/Braedloaf.png");
+}
+
+.background-aboutus h1 {
+ margin-top: 15rem;
+ font-size: 3rem;
+ color: #fabf01;
+}
+.about-us {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about-us .charlie {
+  margin-bottom: 3rem;
+}
+
+
+.about-us .row .text {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Itim';
+}
+
+.about-us .profile {
+  width: 20rem;
+  height: 20rem;
+  vertical-align: center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 400px){
+
+  .about-us {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+.about-us .charlie {
+    margin-bottom: 3rem;
+}
+
+.about-us .row .text {
+  text-align: center;
+  vertical-align: center;
+}
+}
+
+
+
+
+/*BFJ-Vt*/
+
+
+
+
+
+.featured-projecto p {
+  font-size: 1.8rem;
+}
+.otherprojects p {
+  font-size: 1.4rem;
+}
+.featured-projecto .image-container {
+  height: 19rem;
+  margin-top: 20px; /* To match bootstrap header margins */
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+.categories ul {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.projecto {
+  margin-bottom: 5.85rem;
+}
+
+.projecto .image-container {
+  height: 13.5rem;
+  overflow: hidden;
+}
+
+.background-bfjvt {
+    background-image: url("../images/image5.jpeg");
+}
+
+.background-bfjvt h1 {
+ margin-top: 15rem;
+ font-size: 3rem;
+ color: #fabf01;
+}
+
+/* responsive graph */
+html, body {margin:0;}
+.imgres a {display:inline-block; margin:10px 0 0 10px;}
+.imgres a img {display:block; margin:0;}
+
+@media all and (max-width: 750px) {
+  .imgres a:first-of-type img {width:490px;}
+}
+
+@media all and (max-width: 510px) {
+  .imgres a {
+      display: block;
+      margin:10px;
+  }
+  .imgres a img {
+      width:100%!important;
+  }
+}
